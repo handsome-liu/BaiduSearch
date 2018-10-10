@@ -1,0 +1,12 @@
+/* text/test.wxss */
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: #ff0;
+}
+input{
+  height: 100rpx;
+  background: #f00;
+}

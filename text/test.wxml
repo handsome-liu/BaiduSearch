@@ -1,0 +1,15 @@
+<!--text/test.wxml-->
+<form>
+  <input bindtap='clickinput' placeholder='456456'/>
+  <button bindtap='clickbutton'>123123</button>
+</form>
+
+<!-- <form bindsubmit='表单提交事件写在这里'>
+  <input bindtap='clickinput' placeholder='456456'/>
+  <button form-type='submit 也可以触发表单提交事件'>123123</button>
+</form> -->
+
+<!-- <form bindsubmit='表单提交事件写在这里'>
+  <input bindtap='clickinput' placeholder='456456'/>
+  <button form-type='submit 也可以触发表单提交事件'>123123</button>
+</form> -->

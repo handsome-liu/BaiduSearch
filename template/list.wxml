@@ -1,0 +1,12 @@
+<import src='/template/img.wxml' />
+
+<!-- 列表模板 -->
+<template name='list'>
+
+  <view class='list'>
+
+    <template is='img' wx:for='{{item}}' data='{{...item}}'></template>
+
+  </view>
+
+</template>

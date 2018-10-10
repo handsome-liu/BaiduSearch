@@ -1,0 +1,30 @@
+/* pages/home/photoShow/photoShow.wxss */
+.img-container{
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 5rpx;
+}
+.img-container .list{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+ 
+.img-container .list .item {
+  position: relative;
+  box-sizing: border-box;
+  margin: 5rpx;
+}
+.img-container .list .item .thumb{
+  width: 100%; 
+}
+
+.img-container .list .item .download{
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+  width: 64rpx;
+  height: 64rpx;
+}
+

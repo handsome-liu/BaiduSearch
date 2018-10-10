@@ -1,0 +1,36 @@
+<!--pages/home/search/search.wxml-->
+<image class='bg' src='/images/bg.jpg'></image>
+
+<view class='container'>
+
+  <view class='title'>
+
+    <image src='/images/psyduck.ico'></image>
+
+    <text>图片搜索</text>
+
+  </view>
+
+  <view class='form'>
+
+    <form bindsubmit='query'>
+
+      <input name='queryValue' placeholder='输入关键词' placeholder-style='color:#fff' />
+
+      <button form-type='submit'>
+
+        <image src='/images/search.png'></image>
+
+      </button>
+
+    </form>
+
+  </view>
+
+  <view class='hot'>
+
+    <navigator wx:for='{{like}}' url='/pages/home/photoShow/photoShow?word={{item}}'>{{item}}</navigator>
+
+  </view>
+
+</view>

@@ -1,0 +1,16 @@
+<!--pages/home/photoShow/photoShow.wxml-->
+<import src='/template/list.wxml' />
+
+<view class='container'>
+
+  <scroll-view scroll-y bindscrolltolower='more'>
+
+    <view class='img-container'>
+
+      <template is='list' wx:for='{{imgs}}' data='{{item}}'></template>
+
+    </view>
+
+  </scroll-view>
+
+</view>

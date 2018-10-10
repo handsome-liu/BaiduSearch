@@ -1,0 +1,19 @@
+<template name='img'>
+
+  <view class='item'>
+
+    <image  class='thumb' 
+            src='{{thumbURL}}' 
+            bindtap='showImage' 
+            mode='widthFix' 
+            data-src='{{middleURL}}'></image>
+
+    <image  class='download' 
+            src='/images/download.png' 
+            bindtap='download' 
+            mode='widthFix' 
+            data-src='{{objURL}}' ></image>
+
+  </view>
+
+</template>
